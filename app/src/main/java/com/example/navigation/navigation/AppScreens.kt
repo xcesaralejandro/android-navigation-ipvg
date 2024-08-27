@@ -5,4 +5,6 @@ sealed class AppScreens (
 ){
     object HomeScreen: AppScreens("HomeScreen")
     object ConfigScreen: AppScreens("ConfigScreen")
+    object ParamScreen : AppScreens("ParamScreen")
+
 }
